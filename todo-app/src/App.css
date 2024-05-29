@@ -1,0 +1,53 @@
+.App {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 20px;
+}
+
+input {
+  padding: 10px;
+  margin-right: 10px;
+  font-size: 16px;
+  
+}
+input:hover{
+  border-color: aqua;
+}
+/* ::placeholder{
+  color: white;
+} */
+
+button {
+  padding: 10px;
+  font-size: 16px;
+  background-color: rgb(67, 199, 243);
+  color: white;
+}
+button:hover{
+background-color: rgb(12, 184, 242);
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  padding: 10px;
+  border: 1px solid #ddd;
+  margin: 5px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+li button {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+li button:hover {
+  background-color: #218838;
+}
